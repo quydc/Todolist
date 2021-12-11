@@ -14,7 +14,7 @@ $todos = $indexController->index();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <div id='calendar'></div>
+<div id='calendar'></div>
 </body>
 <script>
     $(document).ready(function () {
@@ -38,7 +38,6 @@ $todos = $indexController->index();
                 id: todo['id'],
                 title: todo['taskName'],
                 start: todo['createDate'],
-                end: todo['endDate'],
                 color: color
             });
         }

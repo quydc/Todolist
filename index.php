@@ -37,7 +37,7 @@ $todos = $indexController->index();
             dataEvent.push({
                 id: todo['id'],
                 title: todo['taskName'],
-                start: todo['startDate'],
+                start: todo['createDate'],
                 end: todo['endDate'],
                 color: color
             });
